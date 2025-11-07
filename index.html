@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+</head>
+
+<body>
+    <h1>QR Code Generator</h1>
+    <div class="box">
+        <div id="formContainer">
+            <input type="url" id="input" placeholder="Enter a URL">
+            <button id="btn"> Gererate </button>
+        </div>
+
+    </div>
+    <br>
+    <div class="box" id="DisplayBLock" style="display:none;">
+        <div id="resultContainer">
+            <img id="display" src="placeholderImage.png">
+            <button id="downloadBTN">Download</button>
+            <button id="copyBTN">Copy as image</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
